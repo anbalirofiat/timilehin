@@ -1,0 +1,17 @@
+ body{
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+        background-image: url(img/family.jpg);
+        background-position: 0%;
+        text-align: center;
+        background-repeat: no-repeat;
+        padding: 40px;
+        background-size: cover;
+        background-attachment: fixed;
+ }
+ nav{
+    margin-left: 77%;
+ }
+ .bottom{
+   
+ }

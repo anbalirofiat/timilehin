@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    margin: 0 10px;
+    text-decoration: 0;
+    font-weight: bold;
+}
+.banner{
+    background: linear-gradient(to right);
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: aquamarine;
+    background-color: azure;
+}
+.columns{
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-around;
+    gap: 4px;
+}
+.news{
+    background-color: aqua;
+}
+.find{
+    background-color: blueviolet;
+}
+.tips{
+    background-color: aquamarine;
+}

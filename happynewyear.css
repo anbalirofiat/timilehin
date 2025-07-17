@@ -1,0 +1,12 @@
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: -60%;
+    margin-right: 45%;
+}
+.bottomsection{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40%;
+    margin-left: 50px;
+}
