@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    align-items: center;
+}
+nav{
+    margin-left: 70%;
+}
+nav a{
+    text-decoration: none;
+}
+.search{
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 70px;
+    background-image: url(img/food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.search button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 30px;
+}
+.explore{
+    text-align: center;
+    padding: 40px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.menu{
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+.menuitems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+/* .items{
+    display: flex;
+    padding: 20px;
+} */
+ .menu button{
+    border-radius: 10px;
+    color: green;
+    background-color: black;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+ }
+ .menu a{
+    text-decoration: none;
+    background-color: black;
+    color: green;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+ }
+ .socials a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: red;
+    margin: 0 10px;
+ }

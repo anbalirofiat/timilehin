@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library survey</title>
+    <link rel="stylesheet" href="library.css">
+
+</head>
+
+<body>
+    <h1>Library Survey</h1>
+    <p>Help us improve your local library!</p>
+    <div class="survey">
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="Enter your name" required><br><br>
+        <label for="name">Email</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+        <label for="name">Age</label><br>
+        <input type="number" placeholder="Age" required><br><br>
+        <label>How often do you visit the library?</label><br><br>
+        <select required>
+            <option>select</option>
+            <option>daily</option>
+            <option>weekly</option>
+            <option>bi weekly</option>
+            <option>Monthly</option>
+        </select><br><br>
+        <label>When you visit, are you usually able to find what you are looking for?</label><br><br>
+        <div class="options">
+        <label><input type="radio" name="find">Always</label><br>
+        <label><input type="radio" name="find">Sometimes</label><br>
+        <label><input type="radio" name="find">Rarely</label><br>
+        <label><input type="radio" name="find">Never</label><br><br>
+        </div>
+        <label>Do you usually find the books and other materials that you are looking for in the library?</label><br><br>
+        <div class="options">
+        <label><input type="radio" name="materials">Always</label><br>
+        <label><input type="radio" name="materials">Sometimes</label><br>
+        <label><input type="radio" name="materials">Rarely</label><br>
+        <label><input type="radio" name="materials">Never</label><br><br>
+        </div>
+        <label>Please check all of the reasons you visit the library: (Check all that apply)</label><br><br>
+        <div class="options">
+        <input type="checkbox">To check out/ return books<br>
+        <input type="checkbox">To use the computers<br>
+        <input type="checkbox">To get a book recommendation<br>
+        <input type="checkbox">To do research/find information<br>
+        <input type="checkbox">To take a class<br><br>
+        </div>
+        <label>Anything you would like to see improve?</label><br><br>
+        <textarea placeholder="Enter your comment here" required></textarea><br><br>
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

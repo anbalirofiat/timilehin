@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: brown;
+    color: black;
+}
+header{
+    background: #f1d0b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.fresh{
+    background: url(img/Cheiros\ no\ café.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: 0%;
+    text-align: center;
+    padding: 100px 20px;
+}
+.fresh button{
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.categories{
+    text-align: center;
+    background-color: #f1d0b4;
+    padding: 40px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: brown;
+}
+.top{
+    text-align: center;
+    background-color: #f1d0b4;
+    padding: 40px;
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+.iced img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.iced button{
+    background: brown;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.blogs{
+    text-align: center;
+    background-color: #f1d0b4;
+    background-size: cover;
+    padding: 40px;
+}
+.lorem{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+footer{
+    background: #111;
+    color: white;
+    justify-content: space-around;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
